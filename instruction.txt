@@ -1,0 +1,1 @@
+In function.php, insert this shortcode. Make a new datatable called 'wp timer' and give it a new column name 'end time' and add a new row with the current time value. Now that your shortcode is prepared, you can add it anywhere in your WordPress project.
