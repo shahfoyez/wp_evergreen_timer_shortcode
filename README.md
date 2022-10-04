@@ -1,4 +1,4 @@
-# evergreenTimerShortcode
+# Wordpress Evergreen Timer Shortcode
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
@@ -9,7 +9,7 @@
  alled on your computer. From your command line:
 
 ```bash
-# Clone this repository
+# Include the shortcode in your function.php file.
 $ git clone https://github.com/amitmerchant1990/electron-markdownify
 
 # Go into the repository
