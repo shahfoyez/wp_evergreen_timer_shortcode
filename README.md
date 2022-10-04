@@ -10,9 +10,7 @@
 
 ```bash
 # Include the shortcode in your function.php file.
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
+# Create the columns "id" and "end time" in the datatable "wp timer" 
 $ cd electron-markdownify
 
 # Install dependencies
