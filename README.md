@@ -4,8 +4,6 @@
 
 ## How To Use
 
- alled on your computer. From your command line:
-
 ```bash
 # Include the shortcode in your function.php file.
 # Create the columns 'id' and 'end time' in the datatable 'wp_timer' 
