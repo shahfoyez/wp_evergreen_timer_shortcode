@@ -43,7 +43,6 @@ function timer_function1( $atts ){
 	$id = $atts['id'];
 	global $wpdb;
 	date_default_timezone_set("Asia/Dhaka");
-	echo date_default_timezone_get();
 	$current_date = date('Y-m-d H:i:s');
 	$results = $wpdb->get_results("SELECT * FROM wp_timer WHERE id = $id");
 	// $wpdb->insert('wp_timer', array('id' => 1, 'end_time' =>  )); 
