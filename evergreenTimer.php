@@ -1,6 +1,57 @@
 function timer_function( $atts ){
 	$id = $atts['id'];
 	?>
+	<style>
+		.foy-countdown .foy-dot{
+			font-size: 25px;
+			margin-top: 0px;
+			color: #ffffff;
+			background: #424242;
+			padding: 10px 2px 0px 2px;
+			margin: 0px;
+		}
+		.foy-time-label{
+			margin: 0px;
+			font-size: 10px;
+		}
+		.foy-countdown .foy-countdown-items{
+			display: flex;
+			justify-content: center;
+		}
+		.foy-countdown .foy-days, .foy-hours, .foy-minutes, .foy-seconds{
+			text-align: center;
+			padding: 5px 5px 0px 5px;
+			width: 20%;
+			background: #EDEDED;
+			border-radius: 5px;
+		}
+		.foy-countdown .foy-days p, .foy-hours p, .foy-minutes p, .foy-seconds p, .foy-divider p{
+			line-height: 24px;
+			text-transform: uppercase;
+			color: #6E6E6E;
+		    font-size: 11px;
+		    font-weight: 400;
+
+		}
+		.foy-countdown .foy-time{
+			color: #909090;
+		    font-size: 26px;
+		    font-weight: 600;
+		    margin: 0px;
+		}
+		.foy-countdown .foy-dot{
+			color: #979797 !important;
+			background: none !important;
+		}
+		.foy-days, .foy-days-divider{
+			display: none;
+		}
+		.foy-time-label{
+			font-size: 8px !important;
+			line-height: 20px !important
+
+		}
+	</style>
 	<div class="foy-countdown">
 		<div class="foy-countdown-items"> 
 			<div class="foy-days">
