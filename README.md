@@ -10,4 +10,4 @@
 # include the shortcode in your project.
 $ [foy-timer id='1' interval='4']
   [timer-html id='1' ]
- 
+# Every time you use a new ID, the database will record a new entry, which means a new timer with a different ID and interval will be created and available for use throughout the project.
