@@ -5,10 +5,10 @@
 ## How To Use
 
 ```bash
-# Include the shortcode in your function.php file.
-# Create the columns 'id' and 'end time' in the datatable 'wp_timer' 
+# Copy the shortcode from function.php and paste it into the function.php file for your project.
+# Make a datatable called "wp timer" with the columns "id" and "end time."
 # include the shortcode in your project.
 $ [foy-timer id='1' interval='4']
   [timer-html id='1' ]
-# Every time a new being useed, the database will record a new entry
+# Every time a new id being used, the database will record a new entry
 # Which means a new timer with a different ID and interval will be created and available for use throughout the project.
